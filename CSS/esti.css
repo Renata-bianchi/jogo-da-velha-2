@@ -1,0 +1,89 @@
+img {
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: bisque
+}
+
+h2{
+    font-size: 2em; color: #333333;
+}
+
+p {
+    font-size: 2em; columns: #777777;
+    text-align: center;
+} 
+
+ #inicio {
+    margin-top: 60px;
+ }
+
+.esp {
+    width: 80px;
+    height: 80px;
+    border: 5px solid #333;
+    float: left;
+}
+
+
+#id{
+    width: 100px;
+    height: 100px;
+    padding: 0;
+    margin: 0;
+    background: rgb(5, 5, 0)
+} 
+button{
+    width: 100px;
+    height: 100px;
+    padding: 0;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.botao_container{
+    display: flex;
+    justify-content: center;
+  
+}
+.zerar{
+    background-color: orange;
+    font-size: 1.5em; columns: #777777;
+    text-align: center;
+    z-index: 1;
+    width: 100px;
+    height: 50px;
+    
+}
+#inicio{
+    background-color: rgba(255, 255, 255, 0.6);
+    width: 350px; 
+    margin: 0 auto;
+  } 
+
+body {
+    background: url("../Brinc/Total_Rickall.png") no-repeat fixed; 
+}   
+/* #terror{
+    display: none;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    display: flex;
+    float: right;
+}
+  */
+
