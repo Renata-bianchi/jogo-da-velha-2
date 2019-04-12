@@ -1,31 +1,36 @@
 
-  /* Celular */
-@media only screen and (min-width: 320px){ 
-#inicio {
-   width: 80vw;
-   margin: 0 auto;
+  /* Celular*/ 
+ @media only screen and (min-width: 200px) and (min-width:500px){
+  #inicio {
+   max-width: 100%;
    padding-bottom: 20px;
+   margin-left: 5%
+
 }
 p {
-    font-size: 2em; columns: #777777;
+    font-size: 6em; 
+    columns: #777777;
     text-align: center;
     font-weight: bold;
     text-shadow: 2px 2px white;
-  
+    padding: 5%;
+    
 }
 
 #id{
-    width: 60px;
-    height: 60px;
+    width: 100%;
+    height: 80%;
     padding: 0;
     margin: 0;
     background: rgb(5, 5, 0)
 } 
 button{
-    width: 80px;
-    height: 80px;
+    width: 20%;
+    height: 10%;
     padding: 0;
-    margin: 0;
+    margin: 5%;
+    margin-bottom: 5%;
+    margin-left: 8%;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -42,77 +47,88 @@ button{
 
 .zerar{
     background-color: rgb(211, 79, 17);
-    font-size: 1.5em; columns: #777777;
+    font-size: 7em; columns: #777777;
     text-align: center;  
-    width: 100px;
-    height: 50px;
+    width: 100%;
+    height: 10%;
     font-weight: bold;
     
 }
 
 #inicio{
     background-color: rgba(255, 255, 255, 0.9);
-    width: 350px; 
-    margin: 0 auto;
+    width: 90%;
+    height: 90%;
+    align-content: center
+    
   } 
 
 body {
     background: url("../Brinc/Total_Rickall.png") no-repeat;
-    /* justify-items: auto; */
-    background-size: cover; 
-
-
+        background-size: cover; 
 
 }
 .informativo{
-    height: 1px;
+    height: 10%;
     margin: 0;
-    font-size: 1.5em
+    font-size: 10em
+
 }.titulo{ 
     margin: 0;
 
 }
-}   
+   
+.linha{
+    justify-items: center;
+    
+}
+} 
 
-
-
-
-  /* Tablet */
-
- 
-@media only screen and (min-width: 780px){ 
+/*tablet*/
+/* 
+@media only screen and (min-width: 800px){ 
 #inicio {
-   width: 49%;
-   margin-right: auto;
-   padding-bottom: 8%;
+  
+   max-width: 100%;
+   padding-bottom: 50%;
+   margin-left: 1%
 }
 p {
-    font-size: 3em; columns: #000000;
+    font-size: 6em; columns: #000000;
     text-align: center;
     font-weight: bold;
+    columns: #777777;
+    font-weight: bold;
+    text-shadow: 2px 2px white;
+    padding: 10%;
 }
 .titulo{ 
     margin: 0;
 }
 #id{
-    width: 60px;
-    height: 60px;
+    
+    width: 100%;
+    height: 80%;
     padding: 0;
     margin: 0;
     background: rgb(5, 5, 0)
+    
 } 
 button{
-    width: 100px;
-    height: 100px;
+    
+    width: 20%;
+    height: 15%;
     padding: 0;
-    margin: 0;
+    margin: 1%;
+    margin-bottom: 15%;
+    margin-left: 8%;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-color: rgb(255, 255, 255);
     border-width: 5px;
     border-color: rgba(3, 59, 73, 0.719);    
-    
+
 }
 .botao_container{
     display: flex;
@@ -122,43 +138,51 @@ button{
 
 .zerar{
     background-color: rgb(4, 5, 65);
-    font-size: 2em; columns: #777777;
+    font-size: 8em; columns: #777777;
     text-align: center;
-    z-index: 1;
-    width: 100px;
-    height: 50px;
+    font-size: 7em; columns: #777777;
+    width: 100%;
+    height: 13%;
+    font-weight: bold;
     color: white;
-    
 }
 
 #inicio{
-    background-color: rgba(255, 255, 255, 0.774);
-    width: 400px; 
-    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.774); 
+    width: 90%;
+    height: 90%;
+    align-content: center;
+    margin-left: 30;
+        
   } 
 
 body {
     background: url("../Brinc/Total_Rickall.png") no-repeat fixed; 
     background-size: cover; 
 }.informativo{
-    height: 1px;
-    margin: 0;
-    font-size: 1.5em
+    height: 1%;
+    margin: 10;
+    font-size: 6em;
+    margin-top: -20%;
+}.linha{
+    justify-items: center;
+    margin:0%;
 }   
- 
-} 
-
+}  
 
 
  
+  
 
 /* DEsktop */
   
-@media only screen and (min-width: 1000px){ 
+ @media only screen and (min-width: 1040px){ 
     #inicio {
-       width: 49%;
-       margin-right: auto;    
+       width: 50%;
+       margin-right: 30%;
+       margin-left: 30%;    
        padding-bottom: 7%; 
+      
     }
     p {
         font-size: 3em; columns: #777777;
@@ -166,7 +190,7 @@ body {
         font-weight: bold;
         color: white;
         text-shadow: 2px 2px black;
-                
+        margin-bottom: 15%;         
         
     }
     button{
@@ -181,7 +205,8 @@ body {
         background-color: beige;
         border-width: 5px;
         border-color: rgba(0, 0, 0, 0.719);
-        
+          
+
     }
     .botao_container{
         display: flex;
@@ -193,11 +218,12 @@ body {
         background-color: black;
         font-size: 2em; columns: #777777;
         text-align: center; 
-        width: 100px;
-        height: 75px;
+        width: 100%;
+        height: 10%;
         color: white;
         margin-top: -20;
-        
+        margin-bottom: 0;
+        margin-top: 5%; 
     }
     
     #inicio{
@@ -214,16 +240,249 @@ body {
         background-size: 'cover'; 
     } .informativo{
         height: 1px;
-        font-size: 1.5em
+        font-size: 3em;
+        padding: 1%;
     }.titulo{ 
         margin: 0;
 
-    }
+    }.linha{
+        justify-items: center;
+        margin-left:25%;
+        
+    }   
 }  
     
     
    
      
     
+
+  /* Celular
+  @media only screen and (min-width: 320px){ 
+    #inicio {
+       width: 80vw;
+       margin: 0 auto;
+       padding-bottom: 20px;
+    }
+    p {
+        font-size: 2em; columns: #777777;
+        text-align: center;
+        font-weight: bold;
+        text-shadow: 2px 2px white;
+      
+    }
     
+    #id{
+        width: 60px;
+        height: 60px;
+        padding: 0;
+        margin: 0;
+        background: rgb(5, 5, 0)
+    } 
+    button{
+        width: 80px;
+        height: 80px;
+        padding: 0;
+        margin: 0;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-color: rgba(255, 255, 255, 0.479);
+        border-width: 5px;
+        border-color: rgba(14, 14, 14, 0.719);
+        
+    }
+    .botao_container{
+        display: flex;
+        justify-content: center;
+      
+    }
+    
+    .zerar{
+        background-color: rgb(211, 79, 17);
+        font-size: 1.5em; columns: #777777;
+        text-align: center;  
+        width: 100px;
+        height: 50px;
+        font-weight: bold;
+        
+    }
+    
+    #inicio{
+        background-color: rgba(255, 255, 255, 0.9);
+        width: 350px; 
+        margin: 0 auto;
+      } 
+    
+    body {
+        background: url("../Brinc/Total_Rickall.png") no-repeat;
+        /* justify-items: auto; */
+        /* background-size: cover; 
+    
+    
+    
+    }
+    .informativo{
+        height: 1px;
+        margin: 0;
+        font-size: 1.5em
+    }.titulo{ 
+        margin: 0;
+    
+    }
+    }   
+    
+    
+    
+    
+      Tablet 
+    
+     
+    @media only screen and (min-width: 780px){ 
+    #inicio {
+       width: 49%;
+       margin-right: auto;
+       padding-bottom: 8%;
+    }
+    p {
+        font-size: 3em; columns: #000000;
+        text-align: center;
+        font-weight: bold;
+    }
+    .titulo{ 
+        margin: 0;
+    }
+    #id{
+        width: 60px;
+        height: 60px;
+        padding: 0;
+        margin: 0;
+        background: rgb(5, 5, 0)
+    } 
+    button{
+        width: 100px;
+        height: 100px;
+        padding: 0;
+        margin: 0;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-color: rgb(255, 255, 255);
+        border-width: 5px;
+        border-color: rgba(3, 59, 73, 0.719);    
+        
+    }
+    .botao_container{
+        display: flex;
+        justify-content: center;
+      
+    }
+    
+    .zerar{
+        background-color: rgb(4, 5, 65);
+        font-size: 2em; columns: #777777;
+        text-align: center;
+        z-index: 1;
+        width: 100px;
+        height: 50px;
+        color: white;
+        
+    }
+    
+    #inicio{
+        background-color: rgba(255, 255, 255, 0.774);
+        width: 400px; 
+        margin: 0 auto;
+      } 
+    
+    body {
+        background: url("../Brinc/Total_Rickall.png") no-repeat fixed; 
+        background-size: cover; 
+    }.informativo{
+        height: 1px;
+        margin: 0;
+        font-size: 1.5em
+    }   
+     
+    } 
+     */
+    
+    
+     
+    
+    /* DEsktop 
+      
+    @media only screen and (min-width: 1000px){ 
+        #inicio {
+           width: 49%;
+           margin-right: auto;    
+           padding-bottom: 7%; 
+        }
+        p {
+            font-size: 3em; columns: #777777;
+            text-align: center;
+            font-weight: bold;
+            color: white;
+            text-shadow: 2px 2px black;
+                    
+            
+        }
+        button{
+            width: 120px;
+            height: 120px;
+            padding: 0;
+            margin: 0;
+            top: 0%;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            background-color: beige;
+            border-width: 5px;
+            border-color: rgba(0, 0, 0, 0.719);
+            
+        }
+        .botao_container{
+            display: flex;
+            justify-content: center;
+          
+        }
+        
+        .zerar{
+            background-color: black;
+            font-size: 2em; columns: #777777;
+            text-align: center; 
+            width: 100px;
+            height: 75px;
+            color: white;
+            margin-top: -20;
+            
+        }
+        
+        #inicio{
+            background-color: rgba(0, 0, 0, 0.8);
+            width: 800px; 
+            height: 600px; 
+            margin: 0 auto;
+            align-items: center
+        
+          } 
+        
+        body {
+            background: url("../Brinc/Total_Rickall.png") no-repeat;
+            background-size: 'cover'; 
+        } .informativo{
+            height: 1px;
+            font-size: 1.5em
+        }.titulo{ 
+            margin: 0;
+    
+        }
+    }  
+        */
+        
+       
+         
+        
+        
+        
     
